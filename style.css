@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --facebook: #3b5999;
+}
+
+.wrap-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.play-time {
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: var(--facebook);
+}
+ul {
+    margin-top: 1rem;
+    list-style: none;
+    border: 2px solid var(--facebook);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+li {
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background: url('https://picsum.photos/250/250/1');
+}
+
+.image-upload {
+    margin-top: 1rem;
+    background: var(--facebook);
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+.start-button {
+    background: var(--facebook);
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+.game-text {
+    position: absolute;
+    font-size: 45px;
+    color: #69c23e;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0);
+    display: none;
+}
+
+.list0 {
+    background-position-x: 0;
+    background-position-y: 0;
+}
+.list1 {
+    background-position-x: -100;
+    background-position-y: 0;
+}
+.list2 {
+    background-position-x: -200;
+    background-position-y: 0;
+}
+.list3 {
+    background-position-x: -300;
+    background-position-y: 0;
+}
+.list4 {
+    background-position-x: 0;
+    background-position-y: -100;
+}
+.list5 {
+    background-position-x: -100;
+    background-position-y: -100;
+}
+.list6 {
+    background-position-x: -200;
+    background-position-y: -100;
+}
+.list7 {
+    background-position-x: -300;
+    background-position-y: -100;
+}
+.list8 {
+    background-position-x: 0;
+    background-position-y: -200;
+}
+.list9 {
+    background-position-x: -100;
+    background-position-y: -200;
+}
+.list10 {
+    background-position-x: -200;
+    background-position-y: -200;
+}
+.list11 {
+    background-position-x: -300;
+    background-position-y: -200;
+}
+.list12 {
+    background-position-x: 0;
+    background-position-y: -300;
+}
+.list13 {
+    background-position-x: -100;
+    background-position-y: -300;
+}
+.list14 {
+    background-position-x: -200;
+    background-position-y: -300;
+}
+.list15 {
+    background-position-x: -300;
+    background-position-y: -300;
+}

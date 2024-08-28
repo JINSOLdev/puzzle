@@ -126,6 +126,11 @@ function dragStartHandler(e) {
     dragged.el = obj;
     dragged.class = obj.className;
     dragged.index = [...obj.parentNode.children].indexOf(obj);
+
+    // 드래그 중 잔상을 없애기 위해 투명한 이미지 사용
+    const emptyImage = new Image();
+    emptyImage.src = '';
+    e.dataTransfer.setDragImage(emptyImage, 0, 0);
 }
 
 function dragOverHandler(e) {
